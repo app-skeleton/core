@@ -1,5 +1,6 @@
 {
-	"name":        "kohana/core",
+	"name":        "app-skeleton/core",
+	"type":        "kohana-module",
 	"description": "Core system classes for the Kohana application framework",
 	"homepage":    "http://kohanaframework.org",
 	"license":     "BSD-3-Clause",
@@ -19,7 +20,8 @@
 		"source":   "http://github.com/kohana/core"
 	},
 	"require": {
-		"php":        ">=5.3.3"
+		"composer/installers":	"~1.0",
+		"php":        			">=5.3.3"
 	},
 	"suggest": {
 		"ext-http":   "*",
@@ -28,8 +30,7 @@
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-3.3/develop":  "3.3.x-dev",
-			"dev-3.4/develop":  "3.4.x-dev"
+			"dev-3.3/develop":  "3.3.x-dev"
 		}
 	}
 }
